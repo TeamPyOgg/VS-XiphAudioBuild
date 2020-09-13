@@ -1,0 +1,226 @@
+﻿cl : befehlszeile warning D9035: Die Option "Gm" ist veraltet und wird in einer der nächsten Versionen entfernt.
+  window.c
+  vorbisenc.c
+F:\VS-XiphAudioBuild\libvorbis\lib\modes\psych_44.h(26,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\modes\psych_44.h(32,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\modes\psych_44.h(38,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\modes\psych_44.h(44,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\modes\psych_44.h(50,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(247,88): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(248,91): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(250,56): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(230,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(271,74): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(272,74): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(273,32): warning C4244: "=": Konvertierung von "float" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(275,65): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(276,70): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(277,70): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(283,74): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(284,74): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(285,32): warning C4244: "=": Konvertierung von "float" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(288,87): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(290,70): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(291,70): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(257,1): warning C4244: "Initialisierung": Konvertierung von "const double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(258,1): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(270,1): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(281,1): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(311,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(344,66): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(345,66): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(346,66): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(347,63): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(348,57): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(350,47): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(353,63): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(337,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(376,66): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(361,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(387,59): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(382,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(402,57): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(409,73): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(416,34): warning C4244: "+=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(397,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(428,39): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(429,39): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(446,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(528,28): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(592,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(621,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(658,1): warning C4244: "Initialisierung": Konvertierung von "const double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(659,1): warning C4244: "Initialisierung": Konvertierung von "const double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(660,1): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(717,50): warning C4244: "Funktion": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(834,54): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(840,68): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(842,26): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(877,22): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(913,20): warning C4305: "+=": Verkürzung von "double" in "float"
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(914,31): warning C4305: "=": Verkürzung von "double" in "float"
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(967,53): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(969,41): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(979,26): warning C4244: "=": Konvertierung von "long" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(990,26): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(1074,66): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(1090,49): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\vorbisenc.c(1093,37): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+  synthesis.c
+  smallft.c
+F:\VS-XiphAudioBuild\libvorbis\lib\smallft.c(98,25): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\smallft.c(99,25): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\smallft.c(282,15): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\smallft.c(283,15): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\smallft.c(852,15): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\smallft.c(853,15): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  sharedbook.c
+F:\VS-XiphAudioBuild\libvorbis\lib\sharedbook.c(53,37): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\sharedbook.c(54,40): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\sharedbook.c(73,26): warning C4244: "return": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\sharedbook.c(173,48): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\sharedbook.c(237,44): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\sharedbook.c(257,44): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\sharedbook.c(236,1): warning C4244: "Initialisierung": Konvertierung von "long" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\sharedbook.c(256,1): warning C4244: "Initialisierung": Konvertierung von "long" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\sharedbook.c(370,1): warning C4244: "Initialisierung": Konvertierung von "__int64" in "int", möglicher Datenverlust
+  res0.c
+F:\VS-XiphAudioBuild\libvorbis\lib\res0.c(439,17): warning C4244: "*=": Konvertierung von "float" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\res0.c(419,1): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  registry.c
+  psy.c
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(136,78): warning C4244: "Funktion": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(138,53): warning C4244: "Funktion": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(172,34): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(173,41): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(174,44): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(238,16): warning C4456: Deklaration von "bin" blendet vorherige lokale Deklaration aus
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(159,27): message : Siehe Deklaration von "bin"
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(253,21): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(258,21): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(191,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(192,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(216,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(217,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(238,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(273,63): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(275,78): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(276,57): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(289,39): warning C4305: "=": Verkürzung von "double" in "float"
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(290,41): warning C4305: "=": Verkürzung von "double" in "float"
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(300,28): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(324,66): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(326,56): warning C4244: "Funktion": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(347,44): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(295,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(311,1): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(335,1): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(401,60): warning C4244: "=": Konvertierung von "const float" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(403,17): warning C4244: "=": Konvertierung von "const float" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(570,17): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(742,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(804,21): warning C4305: "=": Verkürzung von "double" in "float"
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(810,41): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(817,31): warning C4305: "=": Verkürzung von "double" in "float"
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(821,42): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(925,1): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(956,33): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(958,32): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(979,35): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(981,34): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(995,30): warning C4244: "=": Konvertierung von "float" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(993,1): warning C4244: "Initialisierung": Konvertierung von "__int64" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(1053,75): warning C4244: "=": Konvertierung von "const double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(1131,49): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(1160,38): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(1179,65): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(1181,65): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(1024,1): warning C4244: "Initialisierung": Konvertierung von "const double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\psy.c(1025,1): warning C4244: "Initialisierung": Konvertierung von "const double" in "float", möglicher Datenverlust
+  mdct.c
+F:\VS-XiphAudioBuild\libvorbis\lib\mdct.c(57,55): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\mdct.c(65,43): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\mdct.c(66,46): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\mdct.c(67,52): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\mdct.c(68,54): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\mdct.c(71,50): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\mdct.c(72,53): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\mdct.c(78,32): warning C4456: Deklaration von "i" blendet vorherige lokale Deklaration aus
+F:\VS-XiphAudioBuild\libvorbis\lib\mdct.c(55,7): message : Siehe Deklaration von "i"
+F:\VS-XiphAudioBuild\libvorbis\lib\mdct.c(439,19): warning C4456: Deklaration von "iX" blendet vorherige lokale Deklaration aus
+F:\VS-XiphAudioBuild\libvorbis\lib\mdct.c(403,14): message : Siehe Deklaration von "iX"
+  mapping0.c
+F:\VS-XiphAudioBuild\libvorbis\lib\mapping0.c(264,33): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\mapping0.c(310,41): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\mapping0.c(327,61): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\mapping0.c(385,40): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  lsp.c
+F:\VS-XiphAudioBuild\libvorbis\lib\lsp.c(252,41): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\lsp.c(276,38): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\lsp.c(259,1): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\lsp.c(350,15): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\lsp.c(397,37): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\lsp.c(449,28): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\lsp.c(452,30): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  lpc.c
+F:\VS-XiphAudioBuild\libvorbis\lib\lpc.c(129,15): warning C4244: "return": Konvertierung von "double" in "float", möglicher Datenverlust
+  lookup.c
+  info.c
+F:\VS-XiphAudioBuild\libvorbis\lib\info.c(45,29): warning C4244: "=": Konvertierung von "long" in "char", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\info.c(62,52): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+F:\VS-XiphAudioBuild\libvorbis\lib\info.c(64,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\VS-XiphAudioBuild\libvorbis\lib\info.c(72,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\VS-XiphAudioBuild\libvorbis\lib\info.c(73,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\VS-XiphAudioBuild\libvorbis\lib\info.c(74,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\VS-XiphAudioBuild\libvorbis\lib\info.c(94,1): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+F:\VS-XiphAudioBuild\libvorbis\lib\info.c(97,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\VS-XiphAudioBuild\libvorbis\lib\info.c(98,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\VS-XiphAudioBuild\libvorbis\lib\info.c(117,1): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+F:\VS-XiphAudioBuild\libvorbis\lib\info.c(119,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\VS-XiphAudioBuild\libvorbis\lib\info.c(120,3): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+F:\VS-XiphAudioBuild\libvorbis\lib\info.c(480,1): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+  floor1.c
+F:\VS-XiphAudioBuild\libvorbis\lib\floor1.c(209,71): warning C4244: "=": Konvertierung von "__int64" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\floor1.c(274,1): warning C4244: "Initialisierung": Konvertierung von "const float" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\floor1.c(496,15): warning C4457: Deklaration von "a" blendet Funktionsparameter aus
+F:\VS-XiphAudioBuild\libvorbis\lib\floor1.c(456,32): message : Siehe Deklaration von "a"
+F:\VS-XiphAudioBuild\libvorbis\lib\floor1.c(498,23): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\floor1.c(499,23): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\floor1.c(713,13): warning C4456: Deklaration von "y0" blendet vorherige lokale Deklaration aus
+F:\VS-XiphAudioBuild\libvorbis\lib\floor1.c(612,9): message : Siehe Deklaration von "y0"
+F:\VS-XiphAudioBuild\libvorbis\lib\floor1.c(714,13): warning C4456: Deklaration von "y1" blendet vorherige lokale Deklaration aus
+F:\VS-XiphAudioBuild\libvorbis\lib\floor1.c(613,9): message : Siehe Deklaration von "y1"
+  floor0.c
+F:\VS-XiphAudioBuild\libvorbis\lib\floor0.c(125,1): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\floor0.c(135,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+  envelope.c
+F:\VS-XiphAudioBuild\libvorbis\lib\envelope.c(47,38): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\envelope.c(64,46): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\envelope.c(67,41): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\envelope.c(144,31): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\envelope.c(126,1): warning C4244: "Initialisierung": Konvertierung von "double" in "float", möglicher Datenverlust
+  codebook.c
+F:\VS-XiphAudioBuild\libvorbis\lib\codebook.c(182,33): warning C4244: "=": Konvertierung von "long" in "char", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\codebook.c(191,31): warning C4244: "=": Konvertierung von "long" in "char", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\codebook.c(213,34): warning C4244: "=": Konvertierung von "long" in "char", möglicher Datenverlust
+  block.c
+F:\VS-XiphAudioBuild\libvorbis\lib\block.c(255,10): warning C4456: Deklaration von "i" blendet vorherige lokale Deklaration aus
+F:\VS-XiphAudioBuild\libvorbis\lib\block.c(171,7): message : Siehe Deklaration von "i"
+F:\VS-XiphAudioBuild\libvorbis\lib\block.c(863,1): warning C4244: "Initialisierung": Konvertierung von "ogg_int64_t" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\block.c(901,1): warning C4244: "Initialisierung": Konvertierung von "ogg_int64_t" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\block.c(1028,10): warning C4456: Deklaration von "i" blendet vorherige lokale Deklaration aus
+F:\VS-XiphAudioBuild\libvorbis\lib\block.c(971,7): message : Siehe Deklaration von "i"
+  bitrate.c
+F:\VS-XiphAudioBuild\libvorbis\lib\bitrate.c(41,67): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\bitrate.c(42,67): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\bitrate.c(43,67): warning C4244: "=": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\bitrate.c(50,1): warning C4244: "Initialisierung": Konvertierung von "double" in "long", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\bitrate.c(134,54): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\bitrate.c(82,1): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+F:\VS-XiphAudioBuild\libvorbis\lib\bitrate.c(87,1): warning C4244: "Initialisierung": Konvertierung von "double" in "long", möglicher Datenverlust
+  Code wird generiert...
+  Kompilieren...
+  analysis.c
+  Code wird generiert...
+F:\VS-XiphAudioBuild\libvorbis\lib\analysis.c(46): warning C4706: Zuweisung in bedingtem Ausdruck
+  libvorbis_dynamic.vcxproj -> F:\VS-XiphAudioBuild\libvorbis\win32\VS2010\..\..\..\build\x64\DebugStatic-RuntimeDependency\vorbis.lib

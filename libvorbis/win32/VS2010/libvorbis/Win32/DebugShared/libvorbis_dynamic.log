@@ -1,0 +1,2 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: Das Zwischenverzeichnis (Win32\DebugShared\) enthält freigegebene Dateien aus einem anderen Projekt (libvorbis.vcxproj). Dies kann zu einem falschen Bereinigungs- und Neuerstellungsverhalten führen.
+  libvorbis_dynamic.vcxproj -> F:\VS-XiphAudioBuild\libvorbis\win32\VS2010\..\..\..\build\Win32\DebugShared\vorbis.dll
