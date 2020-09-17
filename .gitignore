@@ -1,1 +1,8 @@
 **/.vs
+;*.tlog
+;*.obj
+;*.log
+;*.pdb
+;*.idb
+openssl/configdata.pm
+openssl/makefile

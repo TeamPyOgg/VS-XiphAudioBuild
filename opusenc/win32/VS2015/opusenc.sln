@@ -1,38 +1,62 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opusenc", "opusenc.vcxproj", "{755C376F-0786-46A6-B706-A55E37430A4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Win32 = Debug|Win32
-		Debug|x64 = Debug|x64
-		DebugDLL|Win32 = DebugDLL|Win32
-		DebugDLL|x64 = DebugDLL|x64
-		Release|Win32 = Release|Win32
-		Release|x64 = Release|x64
-		ReleaseDLL|Win32 = ReleaseDLL|Win32
-		ReleaseDLL|x64 = ReleaseDLL|x64
+		DebugShared|Win32 = DebugShared|Win32
+		DebugShared|x64 = DebugShared|x64
+		DebugShared-RuntimeDependency|Win32 = DebugShared-RuntimeDependency|Win32
+		DebugShared-RuntimeDependency|x64 = DebugShared-RuntimeDependency|x64
+		DebugStatic|Win32 = DebugStatic|Win32
+		DebugStatic|x64 = DebugStatic|x64
+		DebugStatic-RuntimeDependency|Win32 = DebugStatic-RuntimeDependency|Win32
+		DebugStatic-RuntimeDependency|x64 = DebugStatic-RuntimeDependency|x64
+		ReleaseShared|Win32 = ReleaseShared|Win32
+		ReleaseShared|x64 = ReleaseShared|x64
+		ReleaseShared-RuntimeDependency|Win32 = ReleaseShared-RuntimeDependency|Win32
+		ReleaseShared-RuntimeDependency|x64 = ReleaseShared-RuntimeDependency|x64
+		ReleaseStatic|Win32 = ReleaseStatic|Win32
+		ReleaseStatic|x64 = ReleaseStatic|x64
+		ReleaseStatic-RuntimeDependency|Win32 = ReleaseStatic-RuntimeDependency|Win32
+		ReleaseStatic-RuntimeDependency|x64 = ReleaseStatic-RuntimeDependency|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{755C376F-0786-46A6-B706-A55E37430A4A}.Debug|Win32.ActiveCfg = Debug|Win32
-		{755C376F-0786-46A6-B706-A55E37430A4A}.Debug|Win32.Build.0 = Debug|Win32
-		{755C376F-0786-46A6-B706-A55E37430A4A}.Debug|x64.ActiveCfg = Debug|x64
-		{755C376F-0786-46A6-B706-A55E37430A4A}.Debug|x64.Build.0 = Debug|x64
-		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugDLL|Win32.ActiveCfg = DebugDLL|Win32
-		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugDLL|Win32.Build.0 = DebugDLL|Win32
-		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugDLL|x64.ActiveCfg = DebugDLL|x64
-		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugDLL|x64.Build.0 = DebugDLL|x64
-		{755C376F-0786-46A6-B706-A55E37430A4A}.Release|Win32.ActiveCfg = Release|Win32
-		{755C376F-0786-46A6-B706-A55E37430A4A}.Release|Win32.Build.0 = Release|Win32
-		{755C376F-0786-46A6-B706-A55E37430A4A}.Release|x64.ActiveCfg = Release|x64
-		{755C376F-0786-46A6-B706-A55E37430A4A}.Release|x64.Build.0 = Release|x64
-		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseDLL|Win32.ActiveCfg = ReleaseDLL|Win32
-		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseDLL|Win32.Build.0 = ReleaseDLL|Win32
-		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseDLL|x64.ActiveCfg = ReleaseDLL|x64
-		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseDLL|x64.Build.0 = ReleaseDLL|x64
+		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugShared|Win32.ActiveCfg = DebugShared|Win32
+		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugShared|Win32.Build.0 = DebugShared|Win32
+		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugShared|x64.ActiveCfg = DebugShared|x64
+		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugShared|x64.Build.0 = DebugShared|x64
+		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugShared-RuntimeDependency|Win32.ActiveCfg = DebugShared-RuntimeDependency|Win32
+		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugShared-RuntimeDependency|Win32.Build.0 = DebugShared-RuntimeDependency|Win32
+		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugShared-RuntimeDependency|x64.ActiveCfg = DebugShared-RuntimeDependency|x64
+		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugShared-RuntimeDependency|x64.Build.0 = DebugShared-RuntimeDependency|x64
+		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugStatic|Win32.ActiveCfg = DebugStatic|Win32
+		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugStatic|Win32.Build.0 = DebugStatic|Win32
+		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugStatic|x64.ActiveCfg = DebugStatic|x64
+		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugStatic|x64.Build.0 = DebugStatic|x64
+		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugStatic-RuntimeDependency|Win32.ActiveCfg = DebugStatic-RuntimeDependency|Win32
+		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugStatic-RuntimeDependency|Win32.Build.0 = DebugStatic-RuntimeDependency|Win32
+		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugStatic-RuntimeDependency|x64.ActiveCfg = DebugStatic-RuntimeDependency|x64
+		{755C376F-0786-46A6-B706-A55E37430A4A}.DebugStatic-RuntimeDependency|x64.Build.0 = DebugStatic-RuntimeDependency|x64
+		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseShared|Win32.ActiveCfg = ReleaseShared|Win32
+		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseShared|Win32.Build.0 = ReleaseShared|Win32
+		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseShared|x64.ActiveCfg = ReleaseShared|x64
+		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseShared|x64.Build.0 = ReleaseShared|x64
+		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseShared-RuntimeDependency|Win32.ActiveCfg = ReleaseShared-RuntimeDependency|Win32
+		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseShared-RuntimeDependency|Win32.Build.0 = ReleaseShared-RuntimeDependency|Win32
+		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseShared-RuntimeDependency|x64.ActiveCfg = ReleaseShared-RuntimeDependency|x64
+		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseShared-RuntimeDependency|x64.Build.0 = ReleaseShared-RuntimeDependency|x64
+		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseStatic|Win32.ActiveCfg = ReleaseStatic|Win32
+		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseStatic|Win32.Build.0 = ReleaseStatic|Win32
+		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseStatic|x64.ActiveCfg = ReleaseStatic|x64
+		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseStatic|x64.Build.0 = ReleaseStatic|x64
+		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseStatic-RuntimeDependency|Win32.ActiveCfg = ReleaseStatic-RuntimeDependency|Win32
+		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseStatic-RuntimeDependency|Win32.Build.0 = ReleaseStatic-RuntimeDependency|Win32
+		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseStatic-RuntimeDependency|x64.ActiveCfg = ReleaseStatic-RuntimeDependency|x64
+		{755C376F-0786-46A6-B706-A55E37430A4A}.ReleaseStatic-RuntimeDependency|x64.Build.0 = ReleaseStatic-RuntimeDependency|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

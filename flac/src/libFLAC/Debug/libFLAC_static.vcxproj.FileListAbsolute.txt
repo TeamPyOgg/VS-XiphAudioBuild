@@ -1,0 +1,1 @@
+F:\build\Win32\Debug\libFLAC_static.pdb

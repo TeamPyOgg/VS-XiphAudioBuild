@@ -327,10 +327,12 @@ static int op_poll_win32(struct pollfd *_fds,nfds_t _nfds,int _timeout){
 typedef ptrdiff_t ssize_t;
 #  endif
 
+#if OPENSSL_VERSION_NUMBER < 0x10100000L
 /*Load certificates from the built-in certificate store.*/
 int SSL_CTX_set_default_verify_paths_win32(SSL_CTX *_ssl_ctx);
 #  define SSL_CTX_set_default_verify_paths \
  SSL_CTX_set_default_verify_paths_win32
+#endif
 
 # else
 /*Normal Berkeley sockets.*/

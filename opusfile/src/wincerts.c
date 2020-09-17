@@ -33,6 +33,7 @@
 # include <openssl/err.h>
 # include <openssl/x509.h>
 
+#if OPENSSL_VERSION_NUMBER < 0x10100000L
 static int op_capi_new(X509_LOOKUP *_lu){
   HCERTSTORE h_store;
   h_store=CertOpenStore(CERT_STORE_PROV_SYSTEM_A,0,0,
@@ -170,4 +171,5 @@ int SSL_CTX_set_default_verify_paths_win32(SSL_CTX *_ssl_ctx){
   return 1;
 }
 
+#endif
 #endif
