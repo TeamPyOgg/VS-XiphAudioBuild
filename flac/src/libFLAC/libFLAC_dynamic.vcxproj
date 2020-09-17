@@ -202,26 +202,26 @@
     <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugShared|Win32'">
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Configuration)_dynamic\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>flac</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|Win32'">
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Configuration)_dynamic\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>flac</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Configuration)_dynamic\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>flac</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|Win32'">
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Configuration)_dynamic\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>flac</TargetName>
@@ -229,51 +229,51 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugShared|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)_dynamic\</IntDir>
     <TargetName>flac</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)_dynamic\</IntDir>
     <TargetName>flac</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)_dynamic\</IntDir>
     <TargetName>flac</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)_dynamic\</IntDir>
     <TargetName>flac</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|Win32'">
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Configuration)_dynamic\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetName>flac</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|Win32'">
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Configuration)_dynamic\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetName>flac</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|Win32'">
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Configuration)_dynamic\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetName>flac</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic-RuntimeDependency|Win32'">
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Configuration)_dynamic\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetName>flac</TargetName>
@@ -281,26 +281,26 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)_dynamic\</IntDir>
     <TargetName>flac</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)_dynamic\</IntDir>
     <TargetName>flac</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)_dynamic\</IntDir>
     <TargetName>flac</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic-RuntimeDependency|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <OutDir>$(SolutionDir)..\build\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)build\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)_dynamic\</IntDir>
     <TargetName>flac</TargetName>
     <TargetExt>.lib</TargetExt>
@@ -309,7 +309,7 @@
     <ClCompile>
       <AdditionalOptions>/D "_USE_MATH_DEFINES" %(AdditionalOptions)</AdditionalOptions>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\ogg\include;.\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ogg\include;$(SolutionDir)flac\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FLAC_API_EXPORTS;FLAC__HAS_OGG;FLAC__CPU_IA32;FLAC__HAS_NASM;FLAC__HAS_X86INTRIN;FLAC__ALIGN_MALLOC_DATA;PACKAGE_VERSION="1.3.3";DEBUG;FLAC__OVERFLOW_DETECT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -325,14 +325,14 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>$(SolutionDir)..\build\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)build\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|Win32'">
     <ClCompile>
       <AdditionalOptions>/D "_USE_MATH_DEFINES" %(AdditionalOptions)</AdditionalOptions>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\ogg\include;.\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ogg\include;$(SolutionDir)flac\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FLAC_API_EXPORTS;FLAC__HAS_OGG;FLAC__CPU_IA32;FLAC__HAS_NASM;FLAC__HAS_X86INTRIN;FLAC__ALIGN_MALLOC_DATA;PACKAGE_VERSION="1.3.3";DEBUG;FLAC__OVERFLOW_DETECT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -348,14 +348,14 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>$(SolutionDir)..\build\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)build\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">
     <ClCompile>
       <AdditionalOptions>/D "_USE_MATH_DEFINES" %(AdditionalOptions)</AdditionalOptions>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\ogg\include;.\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ogg\include;$(SolutionDir)flac\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FLAC_API_EXPORTS;FLAC__HAS_OGG;FLAC__CPU_IA32;FLAC__HAS_NASM;FLAC__HAS_X86INTRIN;FLAC__ALIGN_MALLOC_DATA;PACKAGE_VERSION="1.3.3";DEBUG;FLAC__OVERFLOW_DETECT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -378,7 +378,7 @@
     <ClCompile>
       <AdditionalOptions>/D "_USE_MATH_DEFINES" %(AdditionalOptions)</AdditionalOptions>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\ogg\include;.\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ogg\include;$(SolutionDir)flac\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FLAC_API_EXPORTS;FLAC__HAS_OGG;FLAC__CPU_IA32;FLAC__HAS_NASM;FLAC__HAS_X86INTRIN;FLAC__ALIGN_MALLOC_DATA;PACKAGE_VERSION="1.3.3";DEBUG;FLAC__OVERFLOW_DETECT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -401,7 +401,7 @@
     <ClCompile>
       <AdditionalOptions>/D "_USE_MATH_DEFINES" %(AdditionalOptions)</AdditionalOptions>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\ogg\include;.\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ogg\include;$(SolutionDir)flac\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FLAC_API_EXPORTS;FLAC__HAS_OGG;ENABLE_64_BIT_WORDS;FLAC__CPU_X86_64;FLAC__HAS_X86INTRIN;FLAC__ALIGN_MALLOC_DATA;PACKAGE_VERSION="1.3.3";DEBUG;FLAC__OVERFLOW_DETECT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -415,14 +415,14 @@
       <IgnoreSpecificDefaultLibraries>uuid.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
-      <AdditionalLibraryDirectories>$(SolutionDir)..\build\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)build\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|x64'">
     <ClCompile>
       <AdditionalOptions>/D "_USE_MATH_DEFINES" %(AdditionalOptions)</AdditionalOptions>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\ogg\include;.\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ogg\include;$(SolutionDir)flac\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FLAC_API_EXPORTS;FLAC__HAS_OGG;ENABLE_64_BIT_WORDS;FLAC__CPU_X86_64;FLAC__HAS_X86INTRIN;FLAC__ALIGN_MALLOC_DATA;PACKAGE_VERSION="1.3.3";DEBUG;FLAC__OVERFLOW_DETECT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -436,14 +436,14 @@
       <IgnoreSpecificDefaultLibraries>uuid.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
-      <AdditionalLibraryDirectories>$(SolutionDir)..\build\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)build\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'">
     <ClCompile>
       <AdditionalOptions>/D "_USE_MATH_DEFINES" %(AdditionalOptions)</AdditionalOptions>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\ogg\include;.\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ogg\include;$(SolutionDir)flac\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FLAC_API_EXPORTS;FLAC__HAS_OGG;ENABLE_64_BIT_WORDS;FLAC__CPU_X86_64;FLAC__HAS_X86INTRIN;FLAC__ALIGN_MALLOC_DATA;PACKAGE_VERSION="1.3.3";DEBUG;FLAC__OVERFLOW_DETECT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -464,7 +464,7 @@
     <ClCompile>
       <AdditionalOptions>/D "_USE_MATH_DEFINES" %(AdditionalOptions)</AdditionalOptions>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\ogg\include;.\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ogg\include;$(SolutionDir)flac\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;FLAC_API_EXPORTS;FLAC__HAS_OGG;ENABLE_64_BIT_WORDS;FLAC__CPU_X86_64;FLAC__HAS_X86INTRIN;FLAC__ALIGN_MALLOC_DATA;PACKAGE_VERSION="1.3.3";DEBUG;FLAC__OVERFLOW_DETECT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -488,7 +488,7 @@
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\ogg\include;.\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ogg\include;$(SolutionDir)flac\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;FLAC_API_EXPORTS;FLAC__HAS_OGG;FLAC__CPU_IA32;FLAC__HAS_NASM;FLAC__HAS_X86INTRIN;FLAC__ALIGN_MALLOC_DATA;PACKAGE_VERSION="1.3.3";FLaC__INLINE=_inline;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -507,7 +507,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>$(SolutionDir)..\build\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)build\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|Win32'">
@@ -517,7 +517,7 @@
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\ogg\include;.\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ogg\include;$(SolutionDir)flac\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;FLAC_API_EXPORTS;FLAC__HAS_OGG;FLAC__CPU_IA32;FLAC__HAS_NASM;FLAC__HAS_X86INTRIN;FLAC__ALIGN_MALLOC_DATA;PACKAGE_VERSION="1.3.3";FLaC__INLINE=_inline;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -536,7 +536,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalLibraryDirectories>$(SolutionDir)..\build\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)build\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|Win32'">
@@ -546,7 +546,7 @@
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\ogg\include;.\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ogg\include;$(SolutionDir)flac\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;FLAC_API_EXPORTS;FLAC__HAS_OGG;FLAC__CPU_IA32;FLAC__HAS_NASM;FLAC__HAS_X86INTRIN;FLAC__ALIGN_MALLOC_DATA;PACKAGE_VERSION="1.3.3";FLaC__INLINE=_inline;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -575,7 +575,7 @@
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\ogg\include;.\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ogg\include;$(SolutionDir)flac\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;FLAC_API_EXPORTS;FLAC__HAS_OGG;FLAC__CPU_IA32;FLAC__HAS_NASM;FLAC__HAS_X86INTRIN;FLAC__ALIGN_MALLOC_DATA;PACKAGE_VERSION="1.3.3";FLaC__INLINE=_inline;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -604,7 +604,7 @@
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\ogg\include;.\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ogg\include;$(SolutionDir)flac\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;FLAC_API_EXPORTS;FLAC__HAS_OGG;ENABLE_64_BIT_WORDS;FLAC__CPU_X86_64;FLAC__HAS_X86INTRIN;FLAC__ALIGN_MALLOC_DATA;PACKAGE_VERSION="1.3.3";FLaC__INLINE=_inline;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -622,7 +622,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
-      <AdditionalLibraryDirectories>$(SolutionDir)..\build\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)build\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|x64'">
@@ -632,7 +632,7 @@
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\ogg\include;.\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ogg\include;$(SolutionDir)flac\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;FLAC_API_EXPORTS;FLAC__HAS_OGG;ENABLE_64_BIT_WORDS;FLAC__CPU_X86_64;FLAC__HAS_X86INTRIN;FLAC__ALIGN_MALLOC_DATA;PACKAGE_VERSION="1.3.3";FLaC__INLINE=_inline;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -650,7 +650,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
-      <AdditionalLibraryDirectories>$(SolutionDir)..\build\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)build\$(Platform)\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|x64'">
@@ -660,7 +660,7 @@
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\ogg\include;.\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ogg\include;$(SolutionDir)flac\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;FLAC_API_EXPORTS;FLAC__HAS_OGG;ENABLE_64_BIT_WORDS;FLAC__CPU_X86_64;FLAC__HAS_X86INTRIN;FLAC__ALIGN_MALLOC_DATA;PACKAGE_VERSION="1.3.3";FLaC__INLINE=_inline;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -688,7 +688,7 @@
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <OmitFramePointers>true</OmitFramePointers>
       <WholeProgramOptimization>true</WholeProgramOptimization>
-      <AdditionalIncludeDirectories>$(SolutionDir)..\ogg\include;.\include;..\..\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ogg\include;$(SolutionDir)flac\include;$(ProjectDir)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;FLAC_API_EXPORTS;FLAC__HAS_OGG;ENABLE_64_BIT_WORDS;FLAC__CPU_X86_64;FLAC__HAS_X86INTRIN;FLAC__ALIGN_MALLOC_DATA;PACKAGE_VERSION="1.3.3";FLaC__INLINE=_inline;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -820,22 +820,14 @@
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="ia32\cpu_asm.nasm">
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj
-</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj
-</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj
-</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj
-</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj
-</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj
-</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj
-</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj
-</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='DebugShared|Win32'">ia32/cpu_asm.nasm;ia32/nasm.h;%(AdditionalInputs)</AdditionalInputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|Win32'">ia32/cpu_asm.nasm;ia32/nasm.h;%(AdditionalInputs)</AdditionalInputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">ia32/cpu_asm.nasm;ia32/nasm.h;%(AdditionalInputs)</AdditionalInputs>
@@ -852,22 +844,14 @@
       <Outputs Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|x64'">ia32/cpu_asm.obj;%(Outputs)</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'">ia32/cpu_asm.obj;%(Outputs)</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|x64'">ia32/cpu_asm.obj;%(Outputs)</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj
-</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj
-</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj
-</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic-RuntimeDependency|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj
-</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj
-</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj
-</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj
-</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic-RuntimeDependency|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj
-</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic-RuntimeDependency|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic-RuntimeDependency|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/cpu_asm.nasm -o ia32/cpu_asm.obj</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|Win32'">ia32/cpu_asm.nasm;ia32/nasm.h;%(AdditionalInputs)</AdditionalInputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|Win32'">ia32/cpu_asm.nasm;ia32/nasm.h;%(AdditionalInputs)</AdditionalInputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|Win32'">ia32/cpu_asm.nasm;ia32/nasm.h;%(AdditionalInputs)</AdditionalInputs>
@@ -894,21 +878,21 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="ia32\fixed_asm.nasm">
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
 </Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='DebugShared|Win32'">ia32/fixed_asm.nasm;ia32/nasm.h;%(AdditionalInputs)</AdditionalInputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|Win32'">ia32/fixed_asm.nasm;ia32/nasm.h;%(AdditionalInputs)</AdditionalInputs>
@@ -926,21 +910,21 @@
       <Outputs Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|x64'">ia32/fixed_asm.obj;%(Outputs)</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'">ia32/fixed_asm.obj;%(Outputs)</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|x64'">ia32/fixed_asm.obj;%(Outputs)</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic-RuntimeDependency|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic-RuntimeDependency|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic-RuntimeDependency|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic-RuntimeDependency|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/fixed_asm.nasm -o ia32/fixed_asm.obj
 </Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|Win32'">ia32/fixed_asm.nasm;ia32/nasm.h;%(AdditionalInputs)</AdditionalInputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|Win32'">ia32/fixed_asm.nasm;ia32/nasm.h;%(AdditionalInputs)</AdditionalInputs>
@@ -968,21 +952,21 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|x64'">true</ExcludedFromBuild>
     </CustomBuild>
     <CustomBuild Include="ia32\lpc_asm.nasm">
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
 </Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='DebugShared|Win32'">ia32/lpc_asm.nasm;ia32/nasm.h;%(AdditionalInputs)</AdditionalInputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|Win32'">ia32/lpc_asm.nasm;ia32/nasm.h;%(AdditionalInputs)</AdditionalInputs>
@@ -1000,21 +984,21 @@
       <Outputs Condition="'$(Configuration)|$(Platform)'=='DebugShared-RuntimeDependency|x64'">ia32/lpc_asm.obj;%(Outputs)</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'">ia32/lpc_asm.obj;%(Outputs)</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='DebugStatic-RuntimeDependency|x64'">ia32/lpc_asm.obj;%(Outputs)</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic-RuntimeDependency|Win32'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic-RuntimeDependency|Win32'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
 </Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic-RuntimeDependency|x64'">"$(SolutionDir)\..\NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
+      <Command Condition="'$(Configuration)|$(Platform)'=='ReleaseStatic-RuntimeDependency|x64'">"$(SolutionDir)NASM\$(Platform)\nasm.exe" -f win32 -d OBJ_FORMAT_win32 -i ia32/ ia32/lpc_asm.nasm -o ia32/lpc_asm.obj
 </Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='ReleaseShared|Win32'">ia32/lpc_asm.nasm;ia32/nasm.h;%(AdditionalInputs)</AdditionalInputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='ReleaseShared-RuntimeDependency|Win32'">ia32/lpc_asm.nasm;ia32/nasm.h;%(AdditionalInputs)</AdditionalInputs>
