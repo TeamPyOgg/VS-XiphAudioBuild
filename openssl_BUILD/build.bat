@@ -6,7 +6,7 @@ REM %~5 is the $(OutDir)
 
 cd %~1
 
-nmake clean
+if exist makefile nmake clean
 perl Configure %~3
 nmake
 
