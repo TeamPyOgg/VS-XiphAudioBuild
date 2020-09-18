@@ -122,35 +122,35 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)openssl\</OutDir>
+    <OutDir>$(ProjectDir)OUT\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)openssl\</OutDir>
+    <OutDir>$(ProjectDir)OUT\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-RuntimeDependency|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)openssl\</OutDir>
+    <OutDir>$(ProjectDir)OUT\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-RuntimeDependency|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)openssl\</OutDir>
+    <OutDir>$(ProjectDir)OUT\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)openssl\</OutDir>
+    <OutDir>$(ProjectDir)OUT\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)openssl\</OutDir>
+    <OutDir>$(ProjectDir)OUT\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-RuntimeDependency|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)openssl\</OutDir>
+    <OutDir>$(ProjectDir)OUT\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-RuntimeDependency|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>$(SolutionDir)openssl\</OutDir>
+    <OutDir>$(ProjectDir)OUT\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -259,14 +259,14 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug-RuntimeDependency|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release-RuntimeDependency|x64'">false</ExcludedFromBuild>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)build.bat "$(SolutionDir)openssl" "$(SolutionDir)build\$(Platform)" "VC-WIN32 no-tests --release /MT"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)build.bat "$(SolutionDir)openssl" "$(SolutionDir)build\$(Platform)" "VC-WIN32 no-tests --debug /MTd"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug-RuntimeDependency|Win32'">$(ProjectDir)build.bat "$(SolutionDir)openssl" "$(SolutionDir)build\$(Platform)" "VC-WIN32 no-tests --debug /MDd"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release-RuntimeDependency|Win32'">$(ProjectDir)build.bat "$(SolutionDir)openssl" "$(SolutionDir)build\$(Platform)" "VC-WIN32 no-tests --release /MD"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)build.bat "$(SolutionDir)openssl" "$(SolutionDir)build\$(Platform)" "VC-WIN64A no-tests --release /MT"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)build.bat "$(SolutionDir)openssl" "$(SolutionDir)build\$(Platform)" "VC-WIN64A no-tests --debug /MTd"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug-RuntimeDependency|x64'">$(ProjectDir)build.bat "$(SolutionDir)openssl" "$(SolutionDir)build\$(Platform)" "VC-WIN64A no-tests --debug /MDd"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release-RuntimeDependency|x64'">$(ProjectDir)build.bat "$(SolutionDir)openssl" "$(SolutionDir)build\$(Platform)" "VC-WIN64A no-tests --release /MD"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)build.bat "$(SolutionDir)openssl" "$(SolutionDir)build\$(Platform)" "VC-WIN32 no-tests --release /MT" "$(Configuration)" "$(OutDir)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)build.bat "$(SolutionDir)openssl" "$(SolutionDir)build\$(Platform)" "VC-WIN32 no-tests --debug /MTd" "$(Configuration)" "$(OutDir)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug-RuntimeDependency|Win32'">$(ProjectDir)build.bat "$(SolutionDir)openssl" "$(SolutionDir)build\$(Platform)" "VC-WIN32 no-tests --debug /MDd" "$(Configuration)" "$(OutDir)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release-RuntimeDependency|Win32'">$(ProjectDir)build.bat "$(SolutionDir)openssl" "$(SolutionDir)build\$(Platform)" "VC-WIN32 no-tests --release /MD" "$(Configuration)" "$(OutDir)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(ProjectDir)build.bat "$(SolutionDir)openssl" "$(SolutionDir)build\$(Platform)" "VC-WIN64A no-tests --release /MT" "$(Configuration)" "$(OutDir)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(ProjectDir)build.bat "$(SolutionDir)openssl" "$(SolutionDir)build\$(Platform)" "VC-WIN64A no-tests --debug /MTd" "$(Configuration)" "$(OutDir)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug-RuntimeDependency|x64'">$(ProjectDir)build.bat "$(SolutionDir)openssl" "$(SolutionDir)build\$(Platform)" "VC-WIN64A no-tests --debug /MDd" "$(Configuration)" "$(OutDir)"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release-RuntimeDependency|x64'">$(ProjectDir)build.bat "$(SolutionDir)openssl" "$(SolutionDir)build\$(Platform)" "VC-WIN64A no-tests --release /MD" "$(Configuration)" "$(OutDir)"</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)libssl.lib;$(OutDir)libcrypto.lib</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)libssl.lib;$(OutDir)libcrypto.lib</Outputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug-RuntimeDependency|Win32'">$(OutDir)libssl.lib;$(OutDir)libcrypto.lib</Outputs>
