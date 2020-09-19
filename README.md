@@ -41,24 +41,29 @@ Now it's time to select what you want to build.
 Depending on the type of application you want to use the generated libraries in, you're going to want to use a different configuration.  
 First of all there are two major differences between the libs:  
 Shared and Static.
-
-**Shared libraries**
+  
+**Shared libraries**  
 Shared libraries, also known as dynamic libraries are what you'll commonly see as `.DLL` files. These are generally the libraries you want to use, especially when you're developing with languages other than C or C++, as those can usually only deal with shared libraries.  
-The other reason for using shared libraries is that they're easily repleacable with newer versions, without having to recomiple your own project for every bugfix release of a library.
-**Static libraries**
+The other reason for using shared libraries is that they're easily repleacable with newer versions, without having to recomiple your own project for every bugfix release of a library.  
+**Static libraries**  
 Static libaries are basically the opposite of shared libraries. When you include them in your project, they will be incorporated into your final binary, without any extra library files. This can be useful when you're trying to build a project that is supposed to output a single executable file without any other dependencies.  
   
-Then there are two more categories:
-**Runtime dependency** (`RuntimeDependency` suffix)
-When the libraries are built using this option, they will require an appropriate Visual C++ redistributable package to be installed on the target system (i.e. they require that certain DLLs are present, such as `ucrtbased.dll` or `VCRUNTIME140D.dll`). You should only use this option when you're supplying a [redist package](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) that corresponds to your Visual C++ version together with your project, as the user might not be able to run it otherwise. You will have the benefit of a smaller file size as a result.
-**No runtime dependency** (no suffix)
+Then there are two more categories:  
+**Runtime dependency** (`RuntimeDependency` suffix)  
+When the libraries are built using this option, they will require an appropriate Visual C++ redistributable package to be installed on the target system (i.e. they require that certain DLLs are present, such as `ucrtbased.dll` or `VCRUNTIME140D.dll`). You should only use this option when you're supplying a [redist package](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) that corresponds to your Visual C++ version together with your project, as the user might not be able to run it otherwise. You will have the benefit of a smaller file size as a result.  
+**No runtime dependency** (no suffix)  
 This is what you want to use when you're building a library of your own or when using other languages than C or C++, as it already has all of the requirements built-in.  
   
-And you'll have to choose from Release or Debug:
-**Release**
-The production-ready versions of the library that have been compiled using optimizations and without any debugging symbols. This is what you want to use unless you're debugging with C / C++.
-**Debug**
+And you'll have to choose from Release or Debug:  
+**Release**  
+The production-ready versions of the library that have been compiled using optimizations and without any debugging symbols. This is what you want to use unless you're debugging with C / C++.  
+**Debug**  
 The library versions with no optimizations, but with debugging information. This is what you should use for the debug configuration in your C / C++ project.
+
+#### Starting the build process
+When you've made the decision for which libraries you want to build, open up the Batch Build menu in Visual Studio by navigating to `[Build]->[Batch Build]` and select the checkmark for every configuration<->platform combination of the `BUILD_ALL` project that you want to bulid.  
+You can also build only specific libraries by scrolling down and picking the appropriate project(s).  
+When you're done, hit the build button and let the compiler do it's magic.
 
 #### Output files
 When done building, you'll be presented with a bunch of different files in the `build` folder, depending on your configuration.  
