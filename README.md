@@ -70,7 +70,7 @@ When done building, you'll be presented with a bunch of different files in the `
 Really only three types of files interest you here:
 Extension | Description
 -|-
-`.DLL`|The shared library with all of the libary's exported functions inside of it
+`.DLL`|The shared library with all of the library's exported functions inside of it
 `.LIB`|The static library (or library part) that you can add to your C / C++ project in the *Linker* settings.
 `.PDB`|*Program Debug Database*, holds additional debug information about the library in question.
 
